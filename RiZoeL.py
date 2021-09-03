@@ -990,7 +990,7 @@ async def _(e):
 @ake.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
 @eel.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"dm"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
 @yaa.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
